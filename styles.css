@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+#grid-container {
+  display: flex;
+  /* flex-direction: column; */
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* div.grid-row {
+  display: flex;
+  width: 100%;
+} */
+
+div.grid-field {
+  background-color: aqua;
+  border: 1px solid black;
+  height: 100px;
+  width: 6.25%;
+}
