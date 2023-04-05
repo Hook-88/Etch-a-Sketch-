@@ -5,7 +5,8 @@
 #grid-container {
   display: flex;
   /* flex-direction: column; */
-  width: 80%;
+  width: 960px;
+  height: 960px;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -14,12 +15,6 @@
   display: flex;
   width: 100%;
 } */
-
-div.grid-field {
-  /* border: 1px solid black; */
-  height: 100px;
-  width: 6.25%;
-}
 
 .charcoal {
   background-color: grey;
